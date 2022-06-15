@@ -367,7 +367,11 @@ img {
 /*Buttons and Clickables*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: linear-gradient(to right, #0575e6 -20%, #00f260 120%);
+  background-clip: content-box;
+  background-repeat: no-repeat;
+  filter: blur(8px);
+  opacity: 0.4;
   color: #fff;
   padding: 1rem;
   border-radius: .5rem;
